@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rauf Dayma - Portfolio</title>
+  <meta name="keywords" content="portfolo, web development, app development, services, information and texhnology" />
+  <meta name="discription" content="ths is a portfolio web site that show cases my work and all the information about me">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/15bfa13bef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="home">
+        <div class="container">
+            <h1> <span>Rauf </span>Dayma</h1>
+
+                <!-- Checkbox input -->
+                <input type="checkbox" id="mode-toggle">
+                <!-- Label with background image for day mode -->
+                <label for="mode-toggle" class="mode-toggle day-mode"></label>
+
+            <nav>
+                <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+  <main>
+        <div class="firstPage">
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi I'm Rauf <br> <span> Dayma From India</span></h1>
+            </div class="bgImage" >
+            <img class="bg-image" src="./public/bg-image.png" alt="image">
+        </div>
+
+<!-- ----------------about--------------------->
+    <section id="about">
+        <div class="row">
+            <div class="col-1">
+                <img src="./public/aboutme_img.avif" alt="rauf dayma">
+            </div>
+            <div class="col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello! My name is Rauf Dayma. I'm currently an engineering student and a software developer. I have a passion for building innovative solutions and creating meaningful software applications i have pecializaton on web development.</p>
+<!-- 
+                <div class="tab-titles">
+                    <input type="radio" id="tab-skills" name="tab" class="tab-radio active-links" checked>
+                    <label for="tab-skills" class="tab-links active-links">Skills</label>
+                
+                    <input type="radio" id="tab-experience" name="tab" class="tab-radio active-links" checked>
+                    <label for="tab-experience" class="tab-links active-links">Experience</label>
+                
+                    <input type="radio" id="tab-education" name="tab" class="tab-radio active-links">
+                    <label for="tab-education" class="tab-links active-links">Education</label>
+                </div> -->
+                                   
+                <div class="tab-titles">
+                    <a href="#skills" class="tab-links active-links">Skills</a>
+                    <a href="#experience" class="tab-links active-links">Experience</a>
+                    <a href="#education" class="tab-links active-links">Education</a>
+                </div>
+                <div class="tab-contents" id="skills">
+                    <ul>
+                        <li> <span>Html / CSS</span><br>Designing Web/app Interface</li>
+                        <li> <span>Web development</span><br>Web Application development</li>
+                        <li> <span>App development</span><br>Building Android/Ios Application</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li> <span>2024 - Current</span><br>Freelancer Web Developer</li>
+                        <li> <span>2023 - 2024</span><br>Android Developer at The Seven It Solution</li>
+                    </ul>
+                </div>
+
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li> <span>2024 - Current</span><br>training from the internshala.com</li>
+                        <li> <span>2020 - 2024</span><br>Btech from Vishwakarma Government Enginnering College </li>
+                        <li> <span>Web development</span><br>Diploma from N. M. gopani politechnica instutute</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- ----------------------services------------------------->
+
+
+    <section id="services">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Web Development</h2>
+                    <p>Our web development services focus on crafting intuitive and responsive websites that enhance your online presence and drive business growth. From sleek portfolios to robust e-commerce platforms, we tailor solutions to meet your specific needs and objectives.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2> App Development</h2>
+                    <p>Crafting innovative mobile applications for iOS and Android, I bring your ideas to life with captivating user experiences and robust performance, enhancing your reach and engagement.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Transforming concepts into visually stunning and intuitive designs, I focus on user-centric interfaces that elevate your brand identity and optimize user interaction, enhancing overall satisfaction.                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+    </section>
+<!-- ---------------------------------portfolio-------------------------------------- -->
+    <section id="portfolio">
+        <div>
+            <h1  class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./public/image1.png" alt="my work">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people arround the world. Download it now from app store.
+                        </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-link-simple"></i></a>
+                    </div>
+                </div>
+            
+                <div class="work">
+                    <img src="./public/image2.png" alt="my work">
+                    <div class="layer">
+                        <h3>Online Medicine App</h3>
+                        <p>The app lets you to buy medicines of top companies with a doctor's precription. Download it now from app store.
+                        </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-link-simple"></i></a>
+                    </div>
+                </div>
+    
+                <div class="work">
+                    <img src="./public/image3.png" alt="my work">
+                    <div class="layer">
+                        <h3>Web App</h3>
+                        <p>The is an IT company website i have made for the client to grow thier business.
+                        </p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-link-simple"></i></a>
+                    </div>
+                </div>
+            </div>
+            <button class="btn">See more</button>
+        </div>
+    </section>
+
+    <!-- -----------------------------contact---------------------------- -->
+    <section id="contact">
+        <div class="row2">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i> daymarafik123@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 8511203393</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <button class="btn btn2">Download CV</button>
+            </div>
+
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="name" placeholder="Your Nmae" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <p>Copyright 0 Rauf, made by Rauf Dayma</p>
+  </footer>
+
+</body>
+</html>
